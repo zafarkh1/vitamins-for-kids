@@ -188,8 +188,13 @@ section p {
 }
 
 #navigation {
+  background-color: #fff;
   padding-block: 1rem;
   color: #939CAA;
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  padding-inline: 5rem;
 }
 
 #navigation .container .dropdown {
@@ -1154,6 +1159,6 @@ section p {
 }
 @media (max-width: 360px) {
   .container {
-    width: 100%;
+    width: 200px;
   }
 }/*# sourceMappingURL=main.css.map */

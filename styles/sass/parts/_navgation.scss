@@ -1,7 +1,11 @@
 #navigation {
-	// background-color: red;
+	background-color: $white;
 	padding-block: 1rem;
 	color: $dark-grey;
+	position: fixed;
+	z-index: 1;
+	top: 0%;
+	padding-inline: 5rem;
 }
 #navigation {
   .container {
