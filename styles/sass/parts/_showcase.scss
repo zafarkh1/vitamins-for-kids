@@ -1,0 +1,33 @@
+#showcase {
+	// background-color: green;
+	padding-block: 4rem;
+	background: linear-gradient(#495567c5), url(../../../images/png/showcase-background.png) no-repeat scroll top / cover;
+	height: 88vh;
+	color: $white;
+	.container {
+		p {
+			width: 400px;
+			line-height: 1.7rem;
+			margin-block: 3rem;
+			margin-left: 11rem;
+			font-family: 'Lexend Deca', sans-serif;
+		}
+		h1 {
+			width: 600px;
+		}
+		position: relative;
+		.showcase-btn {
+			margin-left: 11rem;
+		}
+	}
+		.showcase-line1 {
+			position: absolute;
+			top: 25rem;
+			left: 0;
+		}
+		.showcase-line2 {
+			position: absolute;
+			top: 25rem;
+			left: 40rem;
+		}
+}

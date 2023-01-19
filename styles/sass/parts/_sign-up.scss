@@ -1,0 +1,12 @@
+#sign-up {
+	// background-color: grey;
+	background: url(../../../images/png/signup-background.png) no-repeat scroll bottom / cover;
+	padding-block: 3rem;
+	.container {
+		h2 {
+			width: 350px;
+			text-transform: none;
+			color: $white;
+		}
+	}
+}

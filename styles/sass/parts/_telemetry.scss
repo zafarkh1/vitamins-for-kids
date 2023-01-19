@@ -1,0 +1,32 @@
+#telemetry {
+	// background-color: blue;
+	padding-block: 3rem;
+	.telemetry-left {
+		width: 49%;
+		h2 {
+			text-transform: none;
+			width: 400px;
+			color: $dark-blue;
+		}
+		p {
+			width: 430px;
+			color: $dark-grey;
+			font-family: 'Lexend Deca', sans-serif;
+		}
+	}
+	.telemetry-right {
+		width: 49%;
+	}
+		position: relative;
+	.telemetry-line {
+		position: absolute;
+		right: 0;
+		bottom: 3rem;
+	}
+	.telemetry-shape {
+		position: absolute;
+		right: 0;
+		bottom: 3rem;
+		z-index: -1;
+	}
+}

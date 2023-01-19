@@ -1,0 +1,14 @@
+#footer {
+	background-color: $light-black;
+	padding-block: 2rem;
+	.container {
+		li {
+			color: $dark-grey;
+		}
+		.footer-right {
+			i {
+				color: $yellow;
+			}
+		}
+	}
+}

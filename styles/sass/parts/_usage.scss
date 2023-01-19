@@ -1,0 +1,21 @@
+#usage {
+	// background-color: green;
+	padding-block: 5rem;
+	.container {
+		h4 {
+			color: $dark-blue;
+		}
+		p {
+			width: 344px;
+			color: $dark-grey;
+			font-family: 'Lexend Deca', sans-serif;
+		}
+	}
+	position: relative;
+	.usage-shape {
+		position: absolute;
+		left: 0;
+		top: 8rem;
+		z-index: -1;
+	}
+}

@@ -1,0 +1,37 @@
+#zeropayment {
+	// background-color: purple;
+	padding-block: 3rem;
+	.zeropayment-left {
+		width: 49%;
+		h2 {
+			text-transform: none;
+			width: 400px;
+			color: $dark-blue;
+		}
+		p {
+			width: 430px;
+			color: $dark-grey;
+			font-family: 'Lexend Deca', sans-serif;
+		}
+	}
+	.zeropayment-right {
+		width: 49%;
+		.zeropayment-img {
+			img {
+				border-radius: 50%;
+			}
+		}
+	}
+	position: relative;
+	.zeropayment-line {
+		position: absolute;
+		right: 0;
+		top: 7rem;
+	}
+	.zeropayment-shape {
+		position: absolute;
+		right: 0;
+		bottom: 3rem;
+		z-index: -1;
+	}
+}

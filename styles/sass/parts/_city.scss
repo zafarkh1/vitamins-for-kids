@@ -1,0 +1,30 @@
+#city {
+	// background-color: yellow;
+	padding-block: 3rem;
+	.city-left {
+		width: 49%;
+		order: 1;
+		h2 {
+			text-transform: none;
+			width: 400px;
+			color: $dark-blue;
+		}
+		p {
+			width: 430px;
+			color: $dark-grey;
+			font-family: 'Lexend Deca', sans-serif;
+		}
+	}
+	.city-right {
+		width: 49%;
+	}
+	position: relative;
+	.city-line {
+		position: absolute;
+		left: 0;
+		top: 8rem;
+		img {
+			width: 90%;
+		}
+	}
+}

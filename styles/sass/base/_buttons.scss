@@ -1,0 +1,22 @@
+%button {
+	all: unset;
+	box-sizing: border-box;
+	padding: 1rem 3rem;
+	border-radius: 0.2rem;
+	display: inline-block;
+	text-align: center;
+	&:hover {
+		box-shadow: 0 0 20px $dark-grey;
+		background-color: $light-blue;
+		color: $yellow;
+	}
+	&:active {
+		transform: scale(0.9);
+	}
+}
+
+.yellow-btn {
+	@extend %button;
+	background-color: $yellow;
+	color: $white;
+}

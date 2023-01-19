@@ -1,0 +1,39 @@
+#navigation {
+	// background-color: red;
+	padding-block: 1rem;
+	color: $dark-grey;
+}
+#navigation {
+  .container {
+    .dropdown {
+      display: none;
+      .dropdown-menu {
+        background-color: $light-black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        min-width: 200px;
+        transition: all ease-in-out 0.3s;
+        transform: translateX(-100%);
+        ul {
+          color: $white;
+          li {
+            margin-bottom: 10px;
+          }
+          label {
+            display: block;
+            text-align: right;
+          }
+        }
+      }
+      input:checked + .dropdown-menu {
+        transform: translateX(0);
+      }
+    }
+  }
+}
