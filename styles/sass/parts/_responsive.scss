@@ -95,10 +95,10 @@
       position: absolute;
       // right: -12.5rem;
       bottom: 3rem;
-      img {
-        max-width: 100%;
-        max-height: 100%;
-      }
+      // img {
+      //   max-width: 100%;
+      //   max-height: 100%;
+      // }
     }
     .telemetry-shape {
       img {
@@ -234,10 +234,10 @@
     .telemetry-line {
       left: 22rem;
       top: 19rem;
-      img {
-        max-width: 100%;
-        max-height: 100%;
-      }
+      // img {
+      //   max-width: 100%;
+      //   max-height: 100%;
+      // }
     }
     .telemetry-shape {
       top: 3rem;
@@ -408,10 +408,10 @@
     .telemetry-line {
 			left: 15rem;
       top: 12rem;
-      img {
-        max-width: 100%;
-        max-height: 100%;
-      }
+      // img {
+      //   max-width: 100%;
+      //   max-height: 100%;
+      // }
     }
   }
 
@@ -501,10 +501,10 @@
     }
     .telemetry-line {
       top: 12rem;
-      img {
-        max-width: 100%;
-        max-height: 100%;
-      }
+      // img {
+      //   max-width: 100%;
+      //   max-height: 100%;
+      // }
     }
     .telemetry-shape {
       display: none;
@@ -660,9 +660,9 @@
     .telemetry-line {
       // right: -26rem;
       top: 8rem;
-      img {
-        width: 90%;
-      }
+      // img {
+      //   width: 90%;
+      // }
     }
   }
   #city {
@@ -780,13 +780,12 @@
         }
       }
     }
-    .telemetry-line {
-      // right: -28rem;
-      top: 8rem;
-      img {
-        width: 70%;
-      }
-    }
+	.telemetry-line {
+		display: none;
+		position: absolute;
+		right: 0;
+		bottom: 3rem;
+	}
   }
   #city {
     .city-left {
@@ -804,6 +803,7 @@
       }
     }
     .city-line {
+			display: none;
       img {
         width: 70%;
       }
@@ -825,6 +825,7 @@
       }
     }
     .zeropayment-line {
+			display: none;
       // right: -9rem;
       top: 1rem;
       img {
