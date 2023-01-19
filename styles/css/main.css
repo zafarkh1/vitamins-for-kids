@@ -191,10 +191,6 @@ section p {
   background-color: #fff;
   padding-block: 1rem;
   color: #939CAA;
-  position: fixed;
-  z-index: 1;
-  top: 0%;
-  padding-inline: 5rem;
 }
 
 #navigation .container .dropdown {
