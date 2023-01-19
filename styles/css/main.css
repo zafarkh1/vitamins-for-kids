@@ -1159,6 +1159,6 @@ section p {
 }
 @media (max-width: 360px) {
   .container {
-    width: 200px;
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
